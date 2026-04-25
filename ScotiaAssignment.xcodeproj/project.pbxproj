@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		332564672F9C736700CF8C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332563E72F996D5300CF8C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332563EE2F996D5300CF8C02;
+			remoteInfo = ScotiaAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		332563EF2F996D5300CF8C02 /* ScotiaAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScotiaAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332564632F9C736600CF8C02 /* ScotiaAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScotiaAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -29,10 +40,22 @@
 			path = ScotiaAssignment;
 			sourceTree = "<group>";
 		};
+		332564642F9C736700CF8C02 /* ScotiaAssignmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScotiaAssignmentTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		332563EC2F996D5300CF8C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332564602F9C736600CF8C02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				332563F12F996D5300CF8C02 /* ScotiaAssignment */,
+				332564642F9C736700CF8C02 /* ScotiaAssignmentTests */,
 				332563F02F996D5300CF8C02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				332563EF2F996D5300CF8C02 /* ScotiaAssignment.app */,
+				332564632F9C736600CF8C02 /* ScotiaAssignmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +108,29 @@
 			productReference = 332563EF2F996D5300CF8C02 /* ScotiaAssignment.app */;
 			productType = "com.apple.product-type.application";
 		};
+		332564622F9C736600CF8C02 /* ScotiaAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332564692F9C736700CF8C02 /* Build configuration list for PBXNativeTarget "ScotiaAssignmentTests" */;
+			buildPhases = (
+				3325645F2F9C736600CF8C02 /* Sources */,
+				332564602F9C736600CF8C02 /* Frameworks */,
+				332564612F9C736600CF8C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332564682F9C736700CF8C02 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				332564642F9C736700CF8C02 /* ScotiaAssignmentTests */,
+			);
+			name = ScotiaAssignmentTests;
+			packageProductDependencies = (
+			);
+			productName = ScotiaAssignmentTests;
+			productReference = 332564632F9C736600CF8C02 /* ScotiaAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +143,10 @@
 				TargetAttributes = {
 					332563EE2F996D5300CF8C02 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					332564622F9C736600CF8C02 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 332563EE2F996D5300CF8C02;
 					};
 				};
 			};
@@ -113,12 +165,20 @@
 			projectRoot = "";
 			targets = (
 				332563EE2F996D5300CF8C02 /* ScotiaAssignment */,
+				332564622F9C736600CF8C02 /* ScotiaAssignmentTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		332563ED2F996D5300CF8C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332564612F9C736600CF8C02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,7 +195,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3325645F2F9C736600CF8C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		332564682F9C736700CF8C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332563EE2F996D5300CF8C02 /* ScotiaAssignment */;
+			targetProxy = 332564672F9C736700CF8C02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		332564032F996D5500CF8C02 /* Debug */ = {
@@ -150,7 +225,7 @@
 				INFOPLIST_FILE = ScotiaAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -182,7 +257,7 @@
 				INFOPLIST_FILE = ScotiaAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +398,48 @@
 			};
 			name = Release;
 		};
+		3325646A2F9C736700CF8C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2G54Z742W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mu.sky.ScotiaAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScotiaAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScotiaAssignment";
+			};
+			name = Debug;
+		};
+		3325646B2F9C736700CF8C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2G54Z742W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mu.sky.ScotiaAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScotiaAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScotiaAssignment";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +457,15 @@
 			buildConfigurations = (
 				332564032F996D5500CF8C02 /* Debug */,
 				332564042F996D5500CF8C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332564692F9C736700CF8C02 /* Build configuration list for PBXNativeTarget "ScotiaAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3325646A2F9C736700CF8C02 /* Debug */,
+				3325646B2F9C736700CF8C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
